@@ -1,4 +1,5 @@
 import React from "react";
+import { throws } from "assert";
 
 class Header extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class Header extends React.Component {
           Day
         </h1>
         <h3 className="tagline">
-          <span>Fresh Daily</span>
+          <span>{this.props.tagline}</span>
         </h3>
       </header>
     );
