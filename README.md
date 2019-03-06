@@ -1,3 +1,3 @@
 # projects-react
 
-WS React lesson 10 hellper functions
+WS React lesson 11 binding
