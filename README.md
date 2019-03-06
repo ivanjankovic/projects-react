@@ -1,3 +1,3 @@
 # projects-react
 
-WS React lesson 6
+WS React lesson 10 hellper functions
