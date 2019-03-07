@@ -21,14 +21,30 @@ class App extends React.Component {
   loadSamplesFishes = () => {
     this.setState({ fishes: sampleFishes });
   };
+
+  addToOrder = key => {
+    // 1. make a copy of state
+    const order = { ...this.state.order };
+    // 2. eithere add or update number in order
+    order[key] = order[key] + 1 || 1;
+    // 3. call setState to update state obbject
+    this.setState({ order });
+    // console.log(key);
+  };
   render() {
     return (
       <div className="catch-of-the-day">
         <div className="menu">
           <Header tagline="Fresh Seafood Market" />
-          <ul className="fishes" >
-            {Object.keys(this.state.fishes).map(key => <Fish key={key} fishData={this.state.fishes[key]} />)}
-            
+          <ul className="fishes">
+            {Object.keys(this.state.fishes).map(key => (
+              <Fish
+                key={key}
+                index={key}
+                fishData={this.state.fishes[key]}
+                addToOrder={this.addToOrder}
+              />
+            ))}
           </ul>
           {/* <Fish />
           <Fish />
