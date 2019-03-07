@@ -1,3 +1,3 @@
 # projects-react
 
-WS React lesson 12 react route
+WS React lesson 13 handing over methods to child components via props
