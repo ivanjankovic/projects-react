@@ -18,7 +18,8 @@ class App extends React.Component {
     // 3. Set the new fishes object to state
     this.setState({ fishes });
   };
-  loadSamplesFishes = () => {
+
+  loadSampleFishes = () => {
     this.setState({ fishes: sampleFishes });
   };
 
@@ -46,20 +47,11 @@ class App extends React.Component {
               />
             ))}
           </ul>
-          {/* <Fish />
-          <Fish />
-          <Fish />
-          <Fish />
-          <Fish />
-          <Fish />
-          <Fish />
-          <Fish />
-          <Fish /> */}
         </div>
-        <Order />
+        <Order fishes={this.state.fishes} order={this.state.order} />
         <Inventory
           addFish={this.addFish}
-          loadSampleFishes={this.loadSamplesFishes}
+          loadSampleFishes={this.loadSampleFishes}
         />
       </div>
     );
