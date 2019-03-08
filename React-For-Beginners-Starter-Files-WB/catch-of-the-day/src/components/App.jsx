@@ -19,7 +19,7 @@ class App extends React.Component {
     if (localStorageRef) {
       this.setState({ order: JSON.parse(localStorageRef) });
     }
-    
+
     this.ref = base.syncState(`${params.storeId}/fishes`, {
       context: this,
       state: "fishes"
@@ -54,8 +54,16 @@ class App extends React.Component {
     fishes[key] = updatedFish;
     // 3. set state
     this.setState({ fishes });
-  }
+  };
 
+  deleteFish = key => {
+    // 1. make a copy of the current state
+    const fishes = { ...this.state.fishes };
+    // 2. update state
+    fishes[key] = null;
+    // 3. set state
+    this.setState({ fishes });
+  };
   loadSampleFishes = () => {
     this.setState({ fishes: sampleFishes });
   };
@@ -65,6 +73,15 @@ class App extends React.Component {
     const order = { ...this.state.order };
     // 2. eithere add or update number in order
     order[key] = order[key] + 1 || 1;
+    // 3. call setState to update state obbject
+    this.setState({ order });
+  };
+
+  removeFromOrder = key => {
+    // 1. make a copy of state
+    const order = { ...this.state.order };
+    // 2. remove item form order
+    delete order[key];
     // 3. call setState to update state obbject
     this.setState({ order });
   };
@@ -84,10 +101,15 @@ class App extends React.Component {
             ))}
           </ul>
         </div>
-        <Order fishes={this.state.fishes} order={this.state.order} />
+        <Order
+          fishes={this.state.fishes}
+          order={this.state.order}
+          removeFromOrder={this.removeFromOrder}
+        />
         <Inventory
           addFish={this.addFish}
           updateFish={this.updateFish}
+          deleteFish={this.deleteFish}
           loadSampleFishes={this.loadSampleFishes}
           fishes={this.state.fishes}
         />
