@@ -10,6 +10,6 @@ WB React Basic
 * 19 12:03 Persistent state with Local Storage, componentDidUpdate
 * 20 15:55 SettingState and passing data to parent component
 * 21 07:09 SettingState and passing data to parent component
-* 22 24:54 
+* 22 24:54 Animation, spread the object
 * 23 13:48
 * 24 30:27
