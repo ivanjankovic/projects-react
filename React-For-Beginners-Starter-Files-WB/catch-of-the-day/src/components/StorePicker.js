@@ -14,7 +14,7 @@ class StorePicker extends React.Component {
   render() {
     return (
       <form className="store-selector" onSubmit={this.goToStore}>
-        <h2>Please Enter A ?Store</h2>
+        <h2>Please Enter A Store</h2>
 
         <input
           type="text"
