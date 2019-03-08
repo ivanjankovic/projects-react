@@ -8,4 +8,4 @@ WB React Basic
 * 17 17:11 Don't pass state parts you don't need, or in othere words don't pass complite state, JS reducer function
 * 18 15:30 Persistent state with Firebase
 * 19 12:03 Persistent state with Local Storage, componentDidUpdate
-* 20 15:55
+* 20 15:55 SettingState and passing data to parent component
