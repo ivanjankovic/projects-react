@@ -11,5 +11,5 @@ WB React Basic
 * 20 15:55 SettingState and passing data to parent component
 * 21 07:09 SettingState and passing data to parent component
 * 22 24:54 Animation, spread the object
-* 23 13:48
+* 23 13:48 Setting a property type with PropTypes
 * 24 30:27

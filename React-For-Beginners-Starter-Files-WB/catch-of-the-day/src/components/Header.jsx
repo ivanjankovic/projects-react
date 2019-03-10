@@ -1,5 +1,5 @@
 import React from "react";
-// import { throws } from "assert";
+import PropTypes from "prop-types";
 
 class Header extends React.Component {
   render() {
@@ -19,6 +19,10 @@ class Header extends React.Component {
       </header>
     );
   }
+}
+
+Header.PropTypes = {
+  tagline: PropTypes.string.isRequired,
 }
 
 export default Header;

@@ -1,4 +1,6 @@
 import React from "react";
+import PropType from "prop-types";
+
 import Header from "./Header";
 import Order from "./Order";
 import Inventory from "./Inventory";
@@ -12,6 +14,9 @@ class App extends React.Component {
     order: {}
   };
 
+  static propTypes = {
+    match: propTypes.object,
+  }
   componentDidMount() {
     const { params } = this.props.match;
     // first reinstate our localStorage
