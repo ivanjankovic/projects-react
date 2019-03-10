@@ -604,16 +604,20 @@ input[type=submit].twitter {
   display: block;
   margin-bottom: 2rem;
   width: 100%;
-  color: #fff;
-  padding: 2rem;
+  color: rgb(255, 255, 255);
+  padding: 1.25rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  font-family: "verdana";
 }
 button.github,
 input[type=submit].github {
-  background: #82d465;
+  background: #3caf13;
 }
 button.github:after,
 input[type=submit].github:after {
-  background: #5cc437;
+  background: #3caf13;
 }
 button.facebook,
 input[type=submit].facebook {
@@ -625,11 +629,11 @@ input[type=submit].facebook:after {
 }
 button.twitter,
 input[type=submit].twitter {
-  background: #5ea9dd;
+  background: #5ca3d7;
 }
 button.twitter:after,
 input[type=submit].twitter:after {
-  background: #2c8dd0;
+  background: #5ca3d7;
 }
 .store-selector {
   background: #fff;

@@ -1,5 +1,5 @@
 import React from "react";
-import PropType from "prop-types";
+import PropTypes from "prop-types";
 
 import Header from "./Header";
 import Order from "./Order";
@@ -15,7 +15,7 @@ class App extends React.Component {
   };
 
   static propTypes = {
-    match: propTypes.object,
+    match: PropTypes.object,
   }
   componentDidMount() {
     const { params } = this.props.match;
