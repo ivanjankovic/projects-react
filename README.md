@@ -13,3 +13,6 @@ WB React Basic
 * 22 24:54 Animation, spread the object
 * 23 13:48 Setting a property type with PropTypes
 * 24 30:27
+* 25
+* 25
+* 27 Deploy with netlify
