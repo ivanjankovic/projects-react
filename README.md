@@ -19,8 +19,11 @@ WB React Basic
 * 28
 * 29 React eject
 
-## learning-next
+WB React Basic
 
+## learning-next
+* Module 1 lesson 3
+* 14 setState with extrenal property
 https://courses.wesbos.com/account/access/5bfc9916256ae9346111f7ac
 https://learn.freecodecamp.org/front-end-libraries/react
 https://medium.freecodecamp.org/want-to-become-a-react-developer-947c9a6dbb76
