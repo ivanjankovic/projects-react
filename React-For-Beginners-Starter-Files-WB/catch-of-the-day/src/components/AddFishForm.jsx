@@ -13,6 +13,7 @@ class AddFishForm extends React.Component {
   };
 
   createFish = event => {
+    // 1. stop the form from submitting
     event.preventDefault();
     const fish = {
       name: this.nameRef.current.value,
@@ -23,7 +24,7 @@ class AddFishForm extends React.Component {
     };
     this.props.addFish(fish);
     // refresh the form
-    // event.currentTarget.reset();
+    event.currentTarget.reset();
   };
   render() {
     return (

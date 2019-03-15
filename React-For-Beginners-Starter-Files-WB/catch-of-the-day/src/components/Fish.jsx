@@ -9,9 +9,9 @@ class Fish extends React.Component {
       name: PropTypes.string,
       desc: PropTypes.string,
       status: PropTypes.string,
-      price: PropTypes.number,
+      price: PropTypes.number
     }),
-    addToOrder: PropTypes.func,
+    addToOrder: PropTypes.func
   };
   render() {
     const { image, name, price, desc, status } = this.props.fishData;

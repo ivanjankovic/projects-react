@@ -8,11 +8,11 @@ class EditFishForm extends React.Component {
       name: PropTypes.string,
       desc: PropTypes.string,
       status: PropTypes.string,
-      price: PropTypes.number,
+      price: PropTypes.number
     }),
     index: PropTypes.string,
-    updateFish: PropTypes.func,
-  }
+    updateFish: PropTypes.func
+  };
   handleChange = event => {
     console.log(event.currentTarget.value);
     // update fish
@@ -58,7 +58,9 @@ class EditFishForm extends React.Component {
           onChange={this.handleChange}
           value={this.props.fish.image}
         />
-        <button onClick={() => this.props.deleteFish(this.props.index)}>Remove Fish</button>
+        <button onClick={() => this.props.deleteFish(this.props.index)}>
+          Remove Fish
+        </button>
       </div>
     );
   }

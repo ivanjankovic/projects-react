@@ -23,12 +23,27 @@ WB React Advanced
 * Module 1 lesson 3
 * 
 
+https://scrimba.com/g/glearnreact 48 videos ~ 300min
+1. Intro & Philosophy
+2. What we’ll be building
+3. Why React?
+4. ReactDOM & JSX
+5. ReactDOM & JSX Practice
+6. Functional Components
+7. Functional Components Practice
+8. Move Components into Separate Files
+9. Parent/Child Components
+10. Parent/Child Components Practice
+
 ## learning-next
 
 https://medium.freecodecamp.org/want-to-become-a-react-developer-947c9a6dbb76
-https://scrimba.com/g/glearnreact
+
 https://learn.freecodecamp.org/front-end-libraries/react
 https://advancedreact.com/ 
+
+## react_native
+https://egghead.io/courses/build-a-react-native-application-for-ios-and-android-from-start-to-finish
 
 
 ## re-create apps
@@ -36,3 +51,6 @@ https://advancedreact.com/
 https://expensive.chat/
 https://www.tensorflow.org/
 
+## read
+
+https://reactjs.org/docs/thinking-in-react.html 

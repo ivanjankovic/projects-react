@@ -20,12 +20,12 @@ class Inventory extends React.Component {
     owner: null
   };
 
-  componentDidMopunt() {
+  componentDidMount() {
     firebase.auth().onAuthStateChanged(user => {
       if (user) {
         this.authHandler({ user });
       }
-    })
+    });
   }
 
   authHandler = async authData => {
@@ -39,7 +39,6 @@ class Inventory extends React.Component {
         data: authData.user.uid
       });
     }
-
     // 3. Set the state of the inventory component to reflect the current user
     this.setState({
       uid: authData.user.uid,
@@ -82,7 +81,7 @@ class Inventory extends React.Component {
     // 3. They are the owner, render the inventory
     return (
       <div className="inventory">
-        <h2>Inventory!!!</h2>
+        <h2>Inventory</h2>
         {logout}
         {Object.keys(this.props.fishes).map(key => (
           <EditFishForm

@@ -15,8 +15,9 @@ class App extends React.Component {
   };
 
   static propTypes = {
-    match: PropTypes.object,
-  }
+    match: PropTypes.object
+  };
+
   componentDidMount() {
     const { params } = this.props.match;
     // first reinstate our localStorage
@@ -32,7 +33,6 @@ class App extends React.Component {
   }
 
   componentDidUpdate() {
-    console.log(this.state.order);
     localStorage.setItem(
       this.props.match.params.storeId,
       JSON.stringify(this.state.order)
@@ -69,6 +69,7 @@ class App extends React.Component {
     // 3. set state
     this.setState({ fishes });
   };
+
   loadSampleFishes = () => {
     this.setState({ fishes: sampleFishes });
   };
@@ -90,6 +91,7 @@ class App extends React.Component {
     // 3. call setState to update state obbject
     this.setState({ order });
   };
+  
   render() {
     return (
       <div className="catch-of-the-day">
