@@ -34,6 +34,9 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300min
 8. Move Components into Separate Files
 9. Parent/Child Components
 10. Parent/Child Components Practice
+```
+next
+```
 11. Todo App — Phase `<= next`
 12. Styling React with CSS Classes
 13. Some Caveats
