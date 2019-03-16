@@ -34,8 +34,6 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300min
 8. Move Components into Separate Files
 9. Parent/Child Components
 10. Parent/Child Components Practice
-```
-      >>>     NEXT      <<<     
 
 11. Todo App — Phase  
 <br/>`      >>>     NEXT      <<<     `
