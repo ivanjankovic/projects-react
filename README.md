@@ -38,7 +38,7 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300min
       >>>     NEXT      <<<     
 ```
 11. Todo App — Phase
-`      >>>     NEXT      <<<     `
+`      >>>     NEXT      <<<     `  
 12. Styling React with CSS Classes
 13. Some Caveats
 14. JSX to JavaScript and Back
