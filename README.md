@@ -35,9 +35,10 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300min
 9. Parent/Child Components
 10. Parent/Child Components Practice
 ```
-next  11. Todo App — Phase
+      >>>     NEXT      <<<     
 ```
-11. Todo App — Phase `<= next`
+11. Todo App — Phase
+`      >>>     NEXT      <<<     `
 12. Styling React with CSS Classes
 13. Some Caveats
 14. JSX to JavaScript and Back
