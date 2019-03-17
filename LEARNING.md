@@ -1,6 +1,6 @@
-## latest
+## active
 
-https://scrimba.com/g/glearnreact 48 videos ~ 300min
+https://scrimba.com/g/glearnreact 48 videos ~ 300 min
 1. Intro & Philosophy
 2. What we’ll be building
 3. Why React?
@@ -16,35 +16,65 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300min
 13. Some Caveats
 14. JSX to JavaScript and Back
 15. Inline Styles with the Style Property
-<br/><br/>`------- NEXT -------`<br/><br/>
 16. Todo App — Phase 2.
 17. Props Part 1 — Understanding the Concept
 18. Props Part 2 — Reusable Components
 19. Props in React
+<br/><br/>`------- NEXT -------`<br/>
 20. Props and Styling Practice
+21. Mapping Components
+22. Mapping Components Practice
+23. Todo App — Phase 3
+24. Class-based Components
+25. Class-based Components Practice
+26. State
+27. State Practice
+28. State Practice 2
+29. Todo App — Phase 4
+30. Handling Events in React
+31. Todo App — Phase 5
+32. Changing State
+33. Todo App — Phase 6
+34. Lifecycle Methods Part 1
+35. Lifecycle Methods Part 2
+36. Conditional Rendering
+37. Conditional Rendering — Practice
+
+39. Todo App — Phase 7
+40. Fetching data from an API
+41. Forms Part 1
+42. Forms Part 2
+43. Forms Practice
+44. Container/Component Architecture
+45. Meme Generator Capstone Project
+46. Writing Modern React Apps
+47. Project Ideas for Practicing
+48. Conclusion
 
 ## started
+
 WB React Advanced
 * Module 1 lesson 3
 * 
 
 ## done
 
-WB React Basic https://reactforbeginners.com/ 29 videos ~ 315min
-* 13 handing over methods to child components via props
-* 14 setState with extrenal property
-* 15 Adding new Component, maping props and passing individual data, destructuring
-* 16 State managment
-* 17 17:11 Don't pass state parts you don't need, or in othere words don't pass complite state, JS reducer function
-* 18 15:30 Persistent state with Firebase
-* 19 12:03 Persistent state with Local Storage, componentDidUpdate
-* 20 15:55 SettingState and passing data to parent component
-* 21 07:09 SettingState and passing data to parent component
-* 22 24:54 Animation, spread the object
-* 23 13:48 Setting a property type with PropTypes
-* 24 30:27 Setting up Authentication with Firebase
-* 25
-* 26 Deploy with now
-* 27 Deploy with netlify
-* 28
-* 29 React eject
+https://reactforbeginners.com/ 29 videos ~ 315 min
+13 - handing over methods to child components via props
+14 - setState with extrenal property
+15 - Adding new Component, maping props and passing individual data, destructuring
+16 - State managment
+17 - Don't pass state parts you don't need, or in othere words don't pass complite state, JS reducer function
+18 - Persistent state with Firebase
+19 - Persistent state with Local Storage, componentDidUpdate
+20 - SettingState and passing data to parent component
+21 - SettingState and passing data to parent component
+22 - Animation, spread the object
+23 - Setting a property type with PropTypes
+24 - Setting up Authentication with Firebase
+25 -
+26 - Deploy with now
+27 - Deploy with netlify
+28 -
+29 - React eject
+note: downloaded course for free, I didn't have the video names so added my own quick description
