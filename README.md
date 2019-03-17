@@ -1,4 +1,4 @@
-# React edu
+### React edu
 
 WB React Basic
 * 13 handing over methods to child components via props
@@ -34,13 +34,12 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300min
 8. Move Components into Separate Files
 9. Parent/Child Components
 10. Parent/Child Components Practice
-
 11. Todo App — Phase  
-<br/>`....... NEXT .......`<br/>
 12. Styling React with CSS Classes
 13. Some Caveats
 14. JSX to JavaScript and Back
 15. Inline Styles with the Style Property
+<br/>`....... NEXT .......`<br/>
 16. Todo App — Phase 2.
 17. Props Part 1 — Understanding the Concept
 18. Props Part 2 — Reusable Components
@@ -55,7 +54,7 @@ https://medium.freecodecamp.org/want-to-become-a-react-developer-947c9a6dbb76
 https://learn.freecodecamp.org/front-end-libraries/react
 https://advancedreact.com/ 
 
-## react_native
+### react_native
 https://egghead.io/courses/build-a-react-native-application-for-ios-and-android-from-start-to-finish
 
 
