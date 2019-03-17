@@ -39,7 +39,7 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300min
 13. Some Caveats
 14. JSX to JavaScript and Back
 15. Inline Styles with the Style Property
-<br/>`....... NEXT .......`<br/>
+<br/><br/>`------- NEXT -------`<br/><br/>
 16. Todo App — Phase 2.
 17. Props Part 1 — Understanding the Concept
 18. Props Part 2 — Reusable Components
