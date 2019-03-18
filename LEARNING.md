@@ -20,9 +20,9 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300 min
 17. Props Part 1 — Understanding the Concept
 18. Props Part 2 — Reusable Components
 19. Props in React
-<br/><br/>`------- NEXT -------`<br/>
 20. Props and Styling Practice
 21. Mapping Components
+<br/><br/>`------- NEXT -------`<br/>
 22. Mapping Components Practice
 23. Todo App — Phase 3
 24. Class-based Components
@@ -39,7 +39,7 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300 min
 35. Lifecycle Methods Part 2
 36. Conditional Rendering
 37. Conditional Rendering — Practice
-
+38. ?
 39. Todo App — Phase 7
 40. Fetching data from an API
 41. Forms Part 1
@@ -60,21 +60,21 @@ WB React Advanced
 ## done
 
 https://reactforbeginners.com/ 29 videos ~ 315 min
-13 - handing over methods to child components via props
-14 - setState with extrenal property
-15 - Adding new Component, maping props and passing individual data, destructuring
-16 - State managment
-17 - Don't pass state parts you don't need, or in othere words don't pass complite state, JS reducer function
-18 - Persistent state with Firebase
-19 - Persistent state with Local Storage, componentDidUpdate
-20 - SettingState and passing data to parent component
-21 - SettingState and passing data to parent component
-22 - Animation, spread the object
-23 - Setting a property type with PropTypes
-24 - Setting up Authentication with Firebase
-25 -
-26 - Deploy with now
-27 - Deploy with netlify
-28 -
-29 - React eject
+13. - handing over methods to child components via props
+14. - setState with extrenal property
+15. - Adding new Component, maping props and passing individual data, destructuring
+16. - State managment
+17. - Don't pass state parts you don't need, or in othere words don't pass complite state, JS reducer function
+18. - Persistent state with Firebase
+19. - Persistent state with Local Storage, componentDidUpdate
+20. - SettingState and passing data to parent component
+21. - SettingState and passing data to parent component
+22. - Animation, spread the object
+23. - Setting a property type with PropTypes
+24. - Setting up Authentication with Firebase
+25. - 
+26. - Deploy with now
+27. - Deploy with netlify
+28. - 
+29. - React eject
 note: downloaded course for free, I didn't have the video names so added my own quick description
