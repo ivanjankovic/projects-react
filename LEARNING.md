@@ -22,7 +22,6 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300 min
 19. Props in React
 20. Props and Styling Practice
 21. Mapping Components
-<br/><br/>`------- NEXT -------`<br/>
 22. Mapping Components Practice
 23. Todo App — Phase 3
 24. Class-based Components
@@ -31,6 +30,7 @@ https://scrimba.com/g/glearnreact 48 videos ~ 300 min
 27. State Practice
 28. State Practice 2
 29. Todo App — Phase 4
+<br/><br/>`------- NEXT -------`<br/>
 30. Handling Events in React
 31. Todo App — Phase 5
 32. Changing State
@@ -60,21 +60,21 @@ WB React Advanced
 ## done
 
 https://reactforbeginners.com/ 29 videos ~ 315 min
-13. - handing over methods to child components via props
-14. - setState with extrenal property
-15. - Adding new Component, maping props and passing individual data, destructuring
-16. - State managment
-17. - Don't pass state parts you don't need, or in othere words don't pass complite state, JS reducer function
-18. - Persistent state with Firebase
-19. - Persistent state with Local Storage, componentDidUpdate
-20. - SettingState and passing data to parent component
-21. - SettingState and passing data to parent component
-22. - Animation, spread the object
-23. - Setting a property type with PropTypes
-24. - Setting up Authentication with Firebase
-25. - 
-26. - Deploy with now
-27. - Deploy with netlify
-28. - 
-29. - React eject
+13. handing over methods to child components via props
+14. setState with extrenal property
+15. Adding new Component, maping props and passing individual data, destructuring
+16. State managment
+17. Don't pass state parts you don't need, or in othere words don't pass complite state, JS reducer function
+18. Persistent state with Firebase
+19. Persistent state with Local Storage, componentDidUpdate
+20. SettingState and passing data to parent component
+21. SettingState and passing data to parent component
+22. Animation, spread the object
+23. Setting a property type with PropTypes
+24. Setting up Authentication with Firebase
+25. 
+26. Deploy with now
+27. Deploy with netlify
+28. 
+29. React eject
 note: downloaded course for free, I didn't have the video names so added my own quick description
